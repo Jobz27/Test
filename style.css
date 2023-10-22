@@ -991,7 +991,8 @@ body {
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      font-size: 24px;
+      font-size: 30px;
+      font-family: Arial;
       color: white;
       opacity: 0; /* Initially hide the text */
       animation: fadeIn 1s ease-in-out 1.5s forwards; /* Delayed fade-in animation */
