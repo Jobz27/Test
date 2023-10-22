@@ -992,7 +992,7 @@ body {
       left: 50%;
       transform: translate(-50%, -50%);
       font-size: 30px;
-      font-family: Arial;
+      font-family: "Arial", Gothic, Impact;
       color: white;
       opacity: 0; /* Initially hide the text */
       animation: fadeIn 1s ease-in-out 1.5s forwards; /* Delayed fade-in animation */
