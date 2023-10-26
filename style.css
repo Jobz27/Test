@@ -986,17 +986,6 @@ body {
 }
 
 .centered-text h1 {
-      text-align: center;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      font-size: 30px;
-      font-weight: bolder;
-      font-family: "Arial", Gothic, Impact;
-      color: white;
-      opacity: 0; /* Initially hide the text */
-      animation: fadeIn 1s ease-in-out 1.5s forwards; /* Delayed fade-in animation */
       color: #fff;
       font-family: monospace;
       overflow: hidden; /* Ensures the content is not revealed until the animation */
@@ -1020,10 +1009,4 @@ body {
   50% { border-color: orange }
 }
 
-@keyframes fadeIn {
-      from {
-        opacity: 0;
-      }
-      to {
-        opacity: 1;
-}
+
